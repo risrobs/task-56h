@@ -10,9 +10,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <div class="main">
-      <div class="emoji mb-6">💣🤯💥</div>
-      <button class="button">Boom?</button>
-    </div>
+    <h1>Inline-flex</h1>
+<p>The flex container only takes up as much space as it needs and will not force a new line.</p>
+<div class='container'>
+  <img src="https://via.placeholder.com/20x20" class="first-image">
+  <div class="first_div">No expansion</div>
+  <div class="second_div"></div>
+</div>
+<hr>
+<h1>Flex</h1>
+<p>The flex container will take the full-width of the screen</p>
+<div class='flex-container'>
+  <img src="https://via.placeholder.com/20x20" class="first-image">
+  <div class="first_div">I expand full-width</div>
+  <div class="second_div"></div>
+</div>
+<hr>
+<h1>Expanding first_div with Inline-Flex</h1>
+<div class='set-sized-flex-container'>
+  <img src="https://via.placeholder.com/20x20" class="first-image">
+  <div class="first_div_expanding">I expand to take up remaining space</div>
+  <div class="second_div"></div>
+</div>
+
   </body>
 </html>
